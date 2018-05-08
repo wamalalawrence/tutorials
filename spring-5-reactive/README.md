@@ -1,4 +1,19 @@
-## Spring REST Example Project
+## Real-time event streaming with Spring WebFlux, Example Project.
+
+### Technology Stack
+- Java 8
+- Mongo database
+- Maven
+
+### Build and run
+> mvn clean install
+> mongod
+> java -jar target/spring-5-reactive-0.0.1-SNAPSHOT.jar
+
+### Testing
+http://localhost:8080/stream/tweets
+NB. Create some tweets, they will be streamed to the browser as you create them
+
 
 ### The Course
 The "REST With Spring" Classes: http://bit.ly/restwithspring
