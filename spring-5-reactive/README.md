@@ -6,9 +6,9 @@
 - Maven
 
 ### Build and run
-> mvn clean install
-> mongod
-> java -jar target/spring-5-reactive-0.0.1-SNAPSHOT.jar
+- mvn clean install
+- mongod
+- java -jar target/spring-5-reactive-0.0.1-SNAPSHOT.jar
 
 ### Testing
 http://localhost:8080/stream/tweets
